@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;700&display=swap');
+
+.home-context {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tulip-img img {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+    opacity: 20%;
+}
+.home-context h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    color: #F67180;
+}
+.home-context p {
+    font-size: .8em;
+    padding: .3em 0;
+    font-style: italic;
+}
+.home-context button {
+    padding: .5em 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #F67180;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.home-context button a {
+    color: #fff;
+}
+.home-context button:hover {
+    background-color: #A66A71;
+}
